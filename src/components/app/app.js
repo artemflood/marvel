@@ -1,10 +1,9 @@
-import { API_URL, URL_COMICS } from '../../constants/api';
-import { getDataApi } from '../../utils/getDataApi';
+
+import Comics from "../comics";
 import './app.css'
 class App{
-    async render(){
-        const data = await getDataApi.getData(API_URL + URL_COMICS);
-        console.log(data);
-    }
+         async render(){
+             await Comics.render()
+         }
 }
 export default new App()
