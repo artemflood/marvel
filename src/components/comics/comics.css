@@ -22,5 +22,6 @@ display: flex;
     padding: var(--spacing-small) var(--spacing-medium);
 }
 .comics__img{
-width: 100%;
+    width: 100%;
+
 }
